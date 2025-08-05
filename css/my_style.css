@@ -1,0 +1,65 @@
+p{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+}
+
+h2{
+    color: black  !important;
+    font-size: 35px !important;
+    background-color: yellow;
+}
+
+.t_transform_up{
+    text-transform: uppercase;
+}
+
+.t_transform_lo{
+    text-transform: lowercase;
+}
+
+.t_transform_cp{
+    text-transform: capitalize;
+}
+
+.t_center{
+    text-align: center;
+}
+
+.t_right{
+    text-align: right;
+}
+
+.t_dec_undline{
+    text-decoration: underline;
+}
+
+.t_dec_uprline{
+    text-decoration: overline;
+}
+
+.t_dec_linethrough{
+    text-decoration: line-through;
+    text-decoration: overline;
+}
+
+.text{
+    text-decoration: overline line-through underline;
+}
+
+.letter{
+    text-indent: 160px;
+}
+
+.letter_spacing{
+    letter-spacing: 10px;
+}
+
+.word_spacing{
+    word-spacing: 30px;
+}
+
+.line_height{
+    line-height: 28px;
+}
