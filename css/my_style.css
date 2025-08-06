@@ -1,8 +1,8 @@
 p{
     color: black;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: aqua;
+   
+    
 }
 
 h2{
@@ -41,7 +41,6 @@ h2{
 
 .t_dec_linethrough{
     text-decoration: line-through;
-    text-decoration: overline;
 }
 
 .text{
@@ -60,6 +59,87 @@ h2{
     word-spacing: 30px;
 }
 
-.line_height{
+.l_height{
     line-height: 28px;
+}
+
+.t_shadow1{
+    font-size: 80px;
+    text-align: center;
+    color: orange;
+    text-shadow: 4px 4px 3px cornflowerblue;
+}
+
+.t_shadow2{
+    font-size: 80px;
+    text-align: center;
+    color: yellow;
+    text-shadow: 4px 4px 3px purple;
+}
+
+.b_shadow{
+    box-shadow: 10px 10px 8px red;
+}
+
+.d_shadow{
+    filter: drop-shadow(10px 10px 8px black);
+}
+
+.t_color{
+    text-align: center;
+    color:blueviolet;
+}
+
+#t_color{
+    color: blueviolet;
+}
+
+.t_bg{
+    background-color: burlywood;
+}
+
+.t_font_size{
+    font-size: 50px;
+}
+
+#t_align{
+    text-align: center;
+}
+
+.f_family1{
+    font-family: sans-serif;
+}
+
+.f_family2{
+    font-family: monospace;
+}
+
+.f_family3{
+    font-family: sans-serif;
+}
+
+.f_family5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.b_prop1{
+    border: 6px double black;
+}
+
+.b_prop2{
+    border: 6px inset red;
+}
+
+.b_prop3{
+    border: 6px dotted red;
+}
+
+.b_prop4{
+    border: 6px dashed red;
+}
+.b_prop5{
+    border: 6px solid red;
+}
+
+.b_prop6{
+    border: 6px outset red;
 }
