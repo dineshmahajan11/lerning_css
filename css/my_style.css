@@ -143,3 +143,66 @@ h2{
 .b_prop6{
     border: 6px outset red;
 }
+
+.b_prop7{
+    border-radius: 60px ;
+}
+
+.b_prop8{
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px ;
+    border-bottom-right-radius: 30px ;
+    border-bottom-left-radius: 30px ;
+
+}
+
+.b_prop9{
+    
+    /* border-top-left-radius: 30px ;
+    border-top-right-radius: 100px ;
+    border-bottom-right-radius: 30px ;
+    border-bottom-left-radius: 100px ; */
+    border-radius: 30px 100px 30px 100px;
+}
+
+.b_prop10{
+    border: 10px solid red;
+    border-color: black red black red;
+}
+
+.box_model1{
+    border: 6px solid black;
+    padding: 60px;
+}
+
+.box_model2{
+    border: 6px solid black;
+    padding: 20px 100px 20px 100px;
+}
+.box_model3{
+    border: 6px solid black;
+    margin: 30px;
+}
+.box_model4{
+    border: 6px solid black;
+    margin: 20px 100px 20px 100px;
+}
+.linear1{
+    height: 400px;
+    background: linear-gradient(orange, white, green);
+}
+.heading{
+    text-align: center;
+    padding-top: 100px;
+    color: black;
+}
+.radial{
+    height: 400px;
+    background: radial-gradient(circle, orange,red,blueviolet);
+}
+
+.conical{
+    height: 400px;
+    background:conic-gradient(from 90deg,red,green,blue,black);
+}
+
