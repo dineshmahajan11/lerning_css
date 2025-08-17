@@ -4,7 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>simple animation</title>
-     <link rel="stylesheet" href="css/my_style.css" type="text/css">
+     <!-- <link rel="stylesheet" href="css/my_style.css" type="text/css"> -->
+      <style>
+        .simple_animation{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: relative;
+    animation: myfirstanimation;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-delay: 10s;
+}
+
+@keyframes myfirstanimation{
+    0%{background-color:yellow;left: 0px;top: 0px;}
+    25%{background-color: red;left: 300px;top: 0px;}
+    50%{background-color: blueviolet;left: 300px;top: 300px;}
+    75%{background-color: green;left: 0px;top: 300px;}
+    100%{background-color: yellow;left: 0px;top: 0px;}
+}
+      </style>
 </head>
 <body>
     <div class="simple_animation">simple animation</div>
